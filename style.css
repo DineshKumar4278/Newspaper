@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(144, 181, 182);
+    font-family:'Times New Roman', Times, serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.card h2{
+    color: black;
+    font-size: 20px;
+}
+
+.card{
+    background-color: rgb(63, 156, 142);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: blue;
+    transition: transform 0.5s;
+}
+.card button{
+    background-color: aqua;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.card button{
+    padding: 10px 20px;
+    border: none;
+    background-color: brown;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor:pointer;
+    transition:background 0.5s;
+
+
+}
+.car button:hover{
+    background:rgb(20, 6, 222) ;
+}
